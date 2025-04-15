@@ -1,4 +1,4 @@
-public class ThreadThree {
+public class ThreadThree extends Thread {
     public void run() {
         printSquares();
     }
